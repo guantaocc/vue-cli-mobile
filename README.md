@@ -1,24 +1,11 @@
 # vue-cli-mobile
 
-## Project setup
-```
-yarn install
-```
+## 简介
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+一个vue-cli的项目模板: 
 
-### Compiles and minifies for production
-```
-yarn build
-```
+master: 原始项目结构
 
-### Lints and fixes files
-```
-yarn lint
-```
+rem-moblile: rem移动端适配方案
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+vw-mibile: (viewport适配方案)
