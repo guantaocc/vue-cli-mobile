@@ -9,6 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "fastclick": "^1.0.6",
+    "reset.css": "^2.0.2",
+    "ua-device": "^0.1.10",
+    "vant": "^2.12.44",
+    "vconsole": "^3.12.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -20,6 +25,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
+    "postcss-px-to-viewport": "^1.1.1",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
