@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <van-nav-bar safe-area-inset-top />
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <van-number-keyboard safe-area-inset-bottom />
   </div>
 </template>
 
@@ -16,13 +18,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="less">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: @base-font-family;
 }
 </style>

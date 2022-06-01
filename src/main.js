@@ -7,9 +7,13 @@ import App from "./App.vue";
 import "reset.css"
 
 /**
+ * vant
+ */
+import './plugins/vant'
+
+/**
  * vant ui
  */
-import { Toast, Dialog } from "vant";
 import FastClick from "fastclick";
 FastClick.attach(document.body);
 
@@ -24,8 +28,6 @@ if (process.env.NODE_ENV === "development") {
 
 Vue.config.productionTip = false;
 
-Vue.use(Toast);
-Vue.use(Dialog);
 
 new Vue({
   render: (h) => h(App),

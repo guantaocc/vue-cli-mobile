@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = ({ webpack }) => {
-  // 根据webpack读取的资源设置 标准值
+  // 如果设计稿和宽度不匹配, 可按倍数调整
   const viewWidth = webpack.resourcePath.includes(
     path.join("node_modules", "vant")
   ) ? 375 : 375;
